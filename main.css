@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+.hiddent {
+    display: none;
+}
+
+/* application container */
+
+.applicant_container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    width: 100%;
+    border-radius: 50px;
+    -webkit-appearance: none;
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #b8b8b8;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.applicant_input span {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    background: #d9d9d9;
+    padding: 11px;
+    border-radius: 50px;
+    font-size: 10px;
+}
