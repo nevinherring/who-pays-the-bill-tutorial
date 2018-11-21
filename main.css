@@ -43,3 +43,8 @@ input:focus{
     border-radius: 50px;
     font-size: 10px;
 }
+
+.applicant_list {
+    text-align: center;
+    margin-top: 20px;
+}
