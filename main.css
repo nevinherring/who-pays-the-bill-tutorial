@@ -48,3 +48,50 @@ input:focus{
     text-align: center;
     margin-top: 20px;
 }
+
+.applicant_list_wrapper span {
+    background: #3f51b5;
+    color: #fff;
+    padding: 1px 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.applicant_list_wrapper span:hover {
+    cursor: pointer;
+    background: darkred;
+}
+
+.button_container {
+    margin-top: 20px;
+}
+
+.button_container div {
+    cursor: pointer;
+    border-radius: 27px;
+    background: #cccccc;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Results container */
+
+.results_container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.results_container h3 {
+    color: darkred;
+}
+
+.results_container div{
+    cursor: pointer;
+}
